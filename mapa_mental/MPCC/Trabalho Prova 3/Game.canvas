@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"6f74f73804d5856a","type":"text","text":"Engine","x":-250,"y":20,"width":250,"height":60,"color":"3"},
+		{"id":"0eba40c6845d8e52","type":"text","text":"Tecnologias Especificas","x":50,"y":500,"width":250,"height":60,"color":"6"},
+		{"id":"631677929ddc9202","type":"text","text":"FSR, DLSS...","x":95,"y":770,"width":250,"height":60,"color":"6"},
+		{"id":"21666417c0692d68","type":"text","text":"Split Fiction","x":-250,"y":-527,"width":225,"height":67,"color":"1"},
+		{"id":"0e12db65426c2e22","type":"text","text":"Graficos","x":-560,"y":500,"width":250,"height":60,"color":"3"},
+		{"id":"91c37dc48feeadbb","type":"text","text":"Game Design","x":762,"y":-319,"width":250,"height":60,"color":"4"},
+		{"id":"b324d0cdcef7ccef","type":"text","text":"jogabilidade","x":960,"y":141,"width":250,"height":60,"color":"4"},
+		{"id":"2bb9069d64c82152","type":"text","text":"https://repositorium.uminho.pt/handle/1822/33295","x":1205,"y":-527,"width":295,"height":88},
+		{"id":"46d88133ca49f2c9","type":"text","text":"https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=5a2a3e2945fd9f9928b42386631f88ec615764db","x":828,"y":-693,"width":312,"height":114},
+		{"id":"dabb8b9d2bd8da82","type":"text","text":"https://direct.mit.edu/desi/article/37/2/32/99079/Split-Screen-Videogame-History-Through-Local","x":484,"y":-779,"width":278,"height":134},
+		{"id":"efc2f2a9491696aa","type":"text","text":"level design","x":1440,"y":-120,"width":250,"height":60,"color":"4"},
+		{"id":"6aa11b7bfbd1ff3a","type":"text","text":"https://ric.cps.sp.gov.br/handle/123456789/23428","x":-1139,"y":407,"width":250,"height":60},
+		{"id":"332402833120ecad","type":"text","text":"https://repositorio.ufsm.br/bitstream/handle/1/33709/Fritzen_Eduardo_Adriano_2024_TCC.pdf?sequence=1&isAllowed=y","x":-1160,"y":220,"width":293,"height":126},
+		{"id":"50946a1fa0b02e9f","type":"text","text":"Desafios","x":-1592,"y":-762,"width":250,"height":60,"color":"5"},
+		{"id":"549773636c8c4f83","type":"text","text":"Renderização Simultânea","x":-1410,"y":-645,"width":250,"height":60,"color":"5"},
+		{"id":"3c861c045f366303","type":"text","text":"Por que usar a unreal?[[Split Fiction]]","x":-1295,"y":-38,"width":313,"height":117},
+		{"id":"7f28ef463555ecb9","type":"text","text":"Pesquisar sobre LOD","x":-2040,"y":-38,"width":250,"height":60,"color":"#ff00ae"}
+	],
+	"edges":[
+		{"id":"887a2fb0c9b6af53","fromNode":"21666417c0692d68","fromSide":"bottom","toNode":"6f74f73804d5856a","toSide":"top"},
+		{"id":"271a3fb960dcecae","fromNode":"21666417c0692d68","fromSide":"bottom","toNode":"91c37dc48feeadbb","toSide":"top"},
+		{"id":"ee7a2c08af48a0a3","fromNode":"0e12db65426c2e22","fromSide":"top","toNode":"6f74f73804d5856a","toSide":"bottom"},
+		{"id":"1e7bf4e68db118b8","fromNode":"0eba40c6845d8e52","fromSide":"top","toNode":"6f74f73804d5856a","toSide":"bottom"},
+		{"id":"334c8d4f18ffcbe0","fromNode":"631677929ddc9202","fromSide":"top","toNode":"0eba40c6845d8e52","toSide":"bottom"},
+		{"id":"1a5c46bc0b4742ea","fromNode":"b324d0cdcef7ccef","fromSide":"top","toNode":"91c37dc48feeadbb","toSide":"bottom"},
+		{"id":"7408c2a3b62c0def","fromNode":"efc2f2a9491696aa","fromSide":"top","toNode":"91c37dc48feeadbb","toSide":"right"},
+		{"id":"02a69225b9407b4b","fromNode":"91c37dc48feeadbb","fromSide":"top","toNode":"2bb9069d64c82152","toSide":"bottom"},
+		{"id":"06bcc2dba6287e9b","fromNode":"91c37dc48feeadbb","fromSide":"top","toNode":"46d88133ca49f2c9","toSide":"bottom"},
+		{"id":"0b49426a70a85707","fromNode":"91c37dc48feeadbb","fromSide":"top","toNode":"dabb8b9d2bd8da82","toSide":"bottom"},
+		{"id":"b8f2243ddca0cfec","fromNode":"6f74f73804d5856a","fromSide":"left","toNode":"6aa11b7bfbd1ff3a","toSide":"right"},
+		{"id":"d6bc24ea4b78809d","fromNode":"6aa11b7bfbd1ff3a","fromSide":"bottom","toNode":"0e12db65426c2e22","toSide":"left"},
+		{"id":"6e20c6c221cb51cb","fromNode":"6f74f73804d5856a","fromSide":"left","toNode":"332402833120ecad","toSide":"right"},
+		{"id":"38f9f2e351fffd2e","fromNode":"6f74f73804d5856a","fromSide":"left","toNode":"3c861c045f366303","toSide":"right"},
+		{"id":"bc272074388e9493","fromNode":"50946a1fa0b02e9f","fromSide":"bottom","toNode":"549773636c8c4f83","toSide":"top"},
+		{"id":"4cef7c97539d4cef","fromNode":"50946a1fa0b02e9f","fromSide":"top","toNode":"21666417c0692d68","toSide":"left"},
+		{"id":"f955b78f727e0adb","fromNode":"549773636c8c4f83","fromSide":"bottom","toNode":"3c861c045f366303","toSide":"top"},
+		{"id":"b353755bb226a8a0","fromNode":"3c861c045f366303","fromSide":"bottom","toNode":"0e12db65426c2e22","toSide":"top"},
+		{"id":"87459b68ee3fe25e","fromNode":"7f28ef463555ecb9","fromSide":"right","toNode":"3c861c045f366303","toSide":"left"}
+	]
+}
